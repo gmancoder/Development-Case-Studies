@@ -1,0 +1,16 @@
+extends ../layouts/app_layout
+
+block content
+	.row
+		.col-md-12
+			- var idx = 0;
+			.row
+				each study in studies
+					.col-md-2
+						a(src="/studies/#{study.id}")
+							img(src="#{study.thumbnail}" alt="#{study.title}")
+							br
+							#{study.title}
+					- idx ++
+					if idx % 6 == 0
+						="</div><div class='row'>"

@@ -1,0 +1,25 @@
+{
+  "name": "app-name",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootable": "0.2.x",
+    "bootable-environment": "0.2.x",
+    "connect-powered-by": "0.1.x",
+    "ejs": "^2.5.7",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "locomotive": "0.4.x",
+    "method-override": "^2.3.10",
+    "moment": "^2.21.0",
+    "morgan": "^1.9.0",
+    "request-promise": "^4.2.2",
+    "serve-favicon": "^2.4.5",
+    "serve-static": "^1.13.2",
+    "sleep": "^5.1.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
